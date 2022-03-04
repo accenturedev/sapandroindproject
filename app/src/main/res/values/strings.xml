@@ -1,0 +1,10 @@
+<resources  xmlns:tools="http://schemas.android.com/tools"
+             tools:ignore="MissingTranslation" >
+    <string name="application_name">Application Northwind</string>
+    <string name="eset_categories">Categories</string>
+    <string name="eset_categories_single">Category</string>
+    <string name="eset_products">Products</string>
+    <string name="eset_products_single">Product</string>
+    <string name="eset_suppliers">Suppliers</string>
+    <string name="eset_suppliers_single">Supplier</string>
+</resources>

@@ -1,0 +1,16 @@
+{
+  "projectInfo": {
+    "projectName": "Application Northwind",
+    "createdDate": "Friday, March 4, 2022 at 11:50:50 AM",
+    "regenerateProxyClassDate": ""
+  },
+  "cloudApplication": {
+    "cloudApplicationId": "com-sap-northwind",
+    "destinations": [
+      {
+        "id": "northwind"
+      }
+    ]
+  },
+  "msServerConfigurationName": "Sap Resource Mobile"
+}
