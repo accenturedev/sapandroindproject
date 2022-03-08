@@ -36,6 +36,12 @@
 			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:theme="@style/AppTheme.NoActionBar">
 		</activity>
+		<activity
+			android:name=".mdui.pages.PageList"
+			android:launchMode="singleTop"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
 
 		<activity
 				android:name=".mdui.categories.CategoriesActivity"

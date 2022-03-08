@@ -11,6 +11,8 @@ import com.sap.cloud.mobile.flowv2.model.FlowType;
 import com.sap.cloud.mobile.flowv2.securestore.UserSecureStoreDelegate;
 import androidx.preference.PreferenceManager;
 import androidx.work.WorkManager;
+
+import com.sap.northwindapplication.mdui.pages.PageList;
 import com.sap.northwindapplication.service.OfflineProgressListener;
 import com.sap.northwindapplication.service.OfflineSyncWorker;
 import com.sap.northwindapplication.service.OfflineWorkerUtil;
@@ -65,6 +67,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
         final Button button1 = findViewById(R.id.containedButton);
 
+        final Button button2 = findViewById(R.id.containedButton2);
         button1.setOnClickListener( new View.OnClickListener() {
 
             @Override
@@ -73,8 +76,18 @@ public class ChoiceActivity extends AppCompatActivity {
                 intent = new Intent(context, EntitySetListActivity.class);
                 context.startActivity(intent);
             }
-        });
 
+        });
+        button2.setOnClickListener( new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent(context, PageList.class);
+                context.startActivity(intent);
+            }
+
+        });
 
         //progressBar = findViewById(R.id.sync_determinate);
 

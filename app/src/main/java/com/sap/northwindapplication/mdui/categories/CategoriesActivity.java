@@ -17,6 +17,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.view.ContextThemeWrapper;
 import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.sap.cloud.mobile.fiori.qrcode.QRCodeConfig;
 import com.sap.northwindapplication.R;
 import com.sap.cloud.mobile.flowv2.core.DialogHelper;
 import com.sap.northwindapplication.mdui.BundleKeys;
@@ -43,6 +45,7 @@ public class CategoriesActivity extends AppCompatActivity implements InterfacedF
 
     private static final String KEY_IS_NAVIGATION_DISABLED = "isNavigationDisabled";
     private static final String KEY_IS_NAVIGATION_FROM_HOME = "isNavigationFromHome";
+
 
     /** Flag to indicate whether both master and detail frames should be visible at the same time  */
     private Boolean isMasterDetailView;
