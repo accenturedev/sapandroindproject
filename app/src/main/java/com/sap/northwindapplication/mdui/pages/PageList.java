@@ -2,6 +2,7 @@ package com.sap.northwindapplication.mdui.pages;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +25,12 @@ public class PageList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pages_list);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        Bundle extras = getIntent().getExtras();
+
+        String extrasS= extras.getString("Immessi");
+        Log.i("valueimport", extrasS);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(extrasS);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(view -> onBackPressed());

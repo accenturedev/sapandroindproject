@@ -84,6 +84,8 @@ public class ChoiceActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent;
                 intent = new Intent(context, PageList.class);
+                String immit = getResources().getString(R.string.string_insert);
+                intent.putExtra("Immessi", immit);
                 context.startActivity(intent);
             }
 
