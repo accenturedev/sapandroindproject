@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.sap.northwindapplication.mdui.ChoiceActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorWhite" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:layout_margin="16dp"
+            >
+            <TextView
+                android:text="\nCiao,\nscegli una delle opzioni a tua disposizone"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:useDefaultMargins="true">
+
+                <Button
+                    android:id="@+id/containedButton"
+                    android:layout_width="175dip"
+                    android:layout_height="160dp"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:textColor="@color/white"
+                    android:text="@string/string_order" />
+
+                <Button
+                    android:id="@+id/containedButton2"
+                    android:layout_width="173dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:text="@string/string_insert" />
+
+                <Button
+                    android:id="@+id/containedButton3"
+                    android:layout_width="173dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:text="@string/string_movement" />
+
+                <Button
+                    android:id="@+id/containedButton4"
+                    android:layout_width="173dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:text="@string/string_inventary" />
+
+                <Button
+                    android:id="@+id/containedButton5"
+                    android:layout_width="173dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:text="@string/string_anagraphic" />
+
+                <Button
+                    android:id="@+id/containedButton6"
+                    android:layout_width="173dp"
+                    android:layout_height="160dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/onboarding_blue_200"
+                    android:text="@string/string_ass" />
+
+
+            </GridLayout>
+
+        </GridLayout>    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

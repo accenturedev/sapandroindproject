@@ -1,0 +1,17 @@
+<resources  xmlns:tools="http://schemas.android.com/tools"
+             tools:ignore="MissingTranslation" >
+    <string name="application_name">Carrefour</string>
+    <string name="eset_categories">Categorie</string>
+    <string name="eset_categories_single">Categoria</string>
+    <string name="eset_products">Prodotti</string>
+    <string name="eset_products_single">Prodotto</string>
+    <string name="eset_suppliers">Fornitori</string>
+    <string name="eset_suppliers_single">Fornitore</string>
+    <string name="string_order">Ordini</string>
+    <string name="string_insert">Immessi</string>
+    <string name="string_movement">Movimenti</string>
+    <string name="string_inventary">Inventari</string>
+    <string name="string_anagraphic">Anagrafiche e prezzi</string>
+    <string name="string_ass">Assistenza</string>
+
+</resources>

@@ -1,0 +1,17 @@
+   ______________________________
+ / \                             \.
+|   | This log file was created  |.
+ \_ | by the Wizard, it contains |.
+    | the configuration data     |.
+    | used for the application   |.
+    | generation.                |.
+    |                            |.
+    | It shouldn't be edited     |.
+    | manually, changing it      |.
+    | won't affect the generated |.
+    | sample.                    |.
+    |   _________________________|___
+    |  /                            /.
+    \_/____________________________/.
+
+{"projectName":"Northwind Application","projectLocation":"C:\\Users\\giuseppe.siciliano\\AndroidStudioProjects\\NorthwindApplication","projectNamespace":"com.sap.northwindapplication","accountName":"SAP Mobile","serviceURL":"https://52b0d4e7trial-dev-com-sap-northwind.cfapps.us10.hana.ondemand.com/","serverURL":"https://mobile-service-cockpit-web.cfapps.us10.hana.ondemand.com/cockpit/v1/org/ea2470ac-6f86-4179-8e82-3cc6f3a95e5a/space/fe5c0513-5164-442a-9d31-a69f36dcda3d/","applicationID":"com-sap-northwind","applicationSecurityConfig":"BASIC","jsonPath":null,"senderID":null,"serverKey":null,"isLogEnabled":true,"isLogUploadEnabled":true,"SAPSDKLocation":"MAVEN_LOCAL","useDiscoveryService":false,"generateJavaCode":true,"generateOnlineApp":false,"isUsageIncluded":false,"isCrashReportIncluded":false,"isMultipleUserMode":false}

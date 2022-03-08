@@ -1,0 +1,2 @@
+rootProject.name = "Northwind Application"
+include ':app'
